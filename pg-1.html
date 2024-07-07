@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations</title>
+    <style>
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        body {
+            background-color: #f8d7da; /* Light pink background */
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333; /* Darker text color for contrast */
+            text-align: center;
+            animation: fadeIn 2s ease-in;
+        }
+        .bb{
+          display: grid;
+          grid-template-rows: 11fr 1fr;
+        }
+        .page-wrapper {
+            display: flex;
+            flex-direction: column;
+            flex: 1; /* Allow the wrapper to expand and push the footer to the bottom */
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-left: 5%;
+            padding-right: 5%;
+            background: #ffffff; /* White background for the wrapper */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            
+            
+        }
+        .container {
+          padding: 5% 5% 6% 5%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            animation: fadeIn 2s ease-in;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #007bff; /* Blue color for the title */
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #555; /* Slightly lighter color for subtitle */
+        }
+        .offer {
+            font-size: 1.5em;
+            margin: 20px 0;
+            display: inline-block;
+            padding: 15px 25px;
+            border: 2px solid #ddd; /* Light grey border */
+            border-radius: 10px;
+            background-color: #f9f9f9; /* Slightly off-white background */
+            text-align: left;
+        }
+        .discount {
+            color: #d9534f; /* Red color for the discount */
+            text-decoration: line-through;
+            margin-right: 10px;
+        }
+        .price {
+            color: #5bc0de; /* Blue color for the price */
+            font-weight: bold;
+        }
+        .insurance-type {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            justify-content: center;
+            text-align: center;
+        }
+        .description {
+            font-size: 1.2em;
+            color: #666; /* Light grey for description text */
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            font-size: 1em;
+            color: #888; /* Even lighter grey for contact info */
+        }
+        .contact-info a {
+            color: #007bff; /* Blue color for links */
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .buy-now-button {
+            display: inline-block;
+            padding: 20px 40px; /* Increased padding for a larger button */
+            font-size: 1.7em; /* Larger font size */
+            font-weight: bold;
+            color: #ffffff; /* White text color */
+            background: linear-gradient(135deg, #ff5722 0%, #ff3d00 100%); /* Bright orange gradient background */
+            border-radius: 10px; /* Larger border radius for a more rounded button */
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 30px; /* Increased margin for more spacing */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+            transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .buy-now-button:hover {
+            background: linear-gradient(135deg, #e64a19 0%, #e53935 100%); /* Darker gradient on hover */
+            transform: scale(1.1); /* More noticeable scale effect */
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+        }
+        footer{
+          background-color: #333;
+          color: #ddd;
+          padding-top: 1em;
+          font-size: 12px;
+        }
+
+    </style>
+</head>
+<body>
+  <div class="bb">
+    <div class="page-wrapper">
+      <div class="container">
+          <h1>Congratulations!</h1>
+          <h2>According to your information, we offer special promotion for you!</h2>
+          <div class="offer">
+              <div class="insurance-type">
+                  <span>Car Insurance + Laptop Insurance</span>
+                  <div>
+                      <span class="discount">RM3000</span> 
+                      <span class="price">RM2100</span>
+                      <span>(1 year - 30% off)</span>
+                  </div>
+              </div>
+          </div>
+          <div class="description">
+              Take advantages of this exclusive offer to save on both car and laptop insurance. This promotion is available for limited time, so purchase now to secure your cars and laptops!
+          </div>
+          <div class="contact-info">
+              For more information, please <a href="mailto:info@example.com">email us</a> or call us at <a href="tel:+1234567890">+123 456 7890</a>.
+          </div>
+          <a href="https://www.aia.com.my/en/my-aia/myaia-login.html" class="buy-now-button">Buy Now!</a> <!-- Added "Buy Now" button -->
+      </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 MEMO AGILITY; ALL RIGHT SERVERED</p>
+  </footer>
+  </div>
+    
+</body>
+</html>

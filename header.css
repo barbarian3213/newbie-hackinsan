@@ -1,0 +1,67 @@
+.toph{
+  background: rgb(119,50,150);
+background: linear-gradient(-90deg, rgba(119,50,150,1) 0%, rgba(55,55,145,0.8492647058823529) 47%, rgba(255,255,255,0) 100%);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.leftaside{
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 3%;
+  margin-left: 48%;
+  width: 48%;
+  height: 35%;
+  display: flex;
+  position: fixed;
+  box-shadow: 0 0 0.3vh #fff,
+    0 0 0.3vh blue,
+    0 0 3vh lightblue;
+}
+
+.rightaside{
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 23%;
+  margin-left: 48%;
+  width: 48%;
+  height: 35%;
+  position: fixed;
+  display: flex;
+  box-shadow: 0 0 0.3vh #fff,
+    0 0 0.3vh blue,
+    0 0 3vh lightblue;
+}
+
+.leftaside > img, .rightaside > img{
+  border-radius: 20px;
+}
+
+.leftaside > section > h2{
+  padding:3%;
+  text-align: center;
+}
+
+.rightaside > section > h2{
+  padding:3%;
+  text-align: center;
+}
+
+.leftaside > section > p{
+  font-size: large;
+  text-align: justify;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.rightaside > section > p{
+  font-size: large;
+  text-align: justify;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
